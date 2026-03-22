@@ -14,7 +14,7 @@ interface Form {
 
 // added User interface to type the user objects returned from the API
 interface User {
-  _id: number;
+  _id: string;
   name: string;
   email: string;
 }
